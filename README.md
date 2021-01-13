@@ -9,7 +9,6 @@ docker run -it --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix --devic
 making an sdcard
 ```
 sudo mkdir -p /Volumes/X49GP/
-sudo mount -o loop sdcard /Volumes/X49GP
 ```
 
 <br>
