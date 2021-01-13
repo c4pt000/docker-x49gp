@@ -4,16 +4,11 @@ docker run -it --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix --devic
 ```
 
 
+
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-https://github.com/c4pt000/docker-x49gp-hp50g-calculator<p align="center"><img src="https://raw.githubusercontent.com/c4pt000/docker-x49gp-hp50g-calculator/master/hp50g.png" width="130"></p>
+https://github.com/c4pt000/docker-x49gp-hp50g-calculator<p align="center"><img src="https://raw.githubusercontent.com/c4pt000/docker-x49gp-hp50g-calculator/master/hp50g.png" width="582"></p>
 
 
 <br>
