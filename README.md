@@ -1,12 +1,10 @@
 # quickstart docker
 
-making an sdcard
-<br>
 ```
+# making an sdcard
+
 mkdir -p /Volumes/X49GP/
-```
-<br>
-```
+
 # to start docker and mount the virtual sd card
 
 docker run --privileged -it --rm -e DISPLAY=$DISPLAY -v /Volumes/X49GP:/Volumes/X49GP -v /tmp/.X11-unix:/tmp/.X11-unix --device /dev/snd c4pt/x49gp-current 
