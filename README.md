@@ -8,7 +8,7 @@ docker run --privileged -it --rm -e DISPLAY=$DISPLAY -v /Volumes/X49GP:/Volumes/
 
 making an sdcard
 ```
-sudo mkdir -p /Volumes/X49GP/
+mkdir -p /Volumes/X49GP/
 ```
 
 <br>
