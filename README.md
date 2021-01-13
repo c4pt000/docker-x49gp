@@ -10,7 +10,7 @@ mkdir -p /Volumes/X49GP/
 docker run --privileged -it --rm -e DISPLAY=$DISPLAY -v /Volumes/X49GP:/Volumes/X49GP -v /tmp/.X11-unix:/tmp/.X11-unix --device /dev/snd c4pt/x49gp-current 
 
 # to run the calculator
-x49gp-calc
+x49gp --reflash=/2MB_215f.bin
 ```
 
 * copy x49gp to /usr/bin/x49gp
