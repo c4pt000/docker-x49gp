@@ -1,6 +1,7 @@
 # quickstart docker
 
 making an sdcard
+<br>
 ```
 mkdir -p /Volumes/X49GP/
 ```
