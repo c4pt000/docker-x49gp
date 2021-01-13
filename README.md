@@ -1,15 +1,23 @@
 # quickstart docker
-```
-docker run --privileged -it --rm -e DISPLAY=$DISPLAY -v /Volumes/X49GP:/Volumes/X49GP -v /tmp/.X11-unix:/tmp/.X11-unix --device /dev/snd c4pt/x49gp-current x49gp --reflash=/opt/docker-x49gp/2MB_215f.bin
-```
-
-* copy x49gp to /usr/bin/x49gp
-* chmod +x /usr/bin/x49gp
 
 making an sdcard
 ```
 mkdir -p /Volumes/X49GP/
 ```
+<br>
+```
+# to start docker and mount the virtual sd card
+
+docker run --privileged -it --rm -e DISPLAY=$DISPLAY -v /Volumes/X49GP:/Volumes/X49GP -v /tmp/.X11-unix:/tmp/.X11-unix --device /dev/snd c4pt/x49gp-current 
+
+# to run the calculator
+x49gp-calc
+```
+
+* copy x49gp to /usr/bin/x49gp
+* chmod +x /usr/bin/x49gp
+
+
 
 <br>
 <br>
