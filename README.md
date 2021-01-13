@@ -1,7 +1,10 @@
 
 # quickstart docker
 ```
-docker run -it --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix --device /dev/snd c4pt/x49gp x49gp
+docker run -it --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix --device /dev/snd c4pt/x49gp
+
+# to load the calculator
+x49gp
 ```
 
 Quick Start Guide
