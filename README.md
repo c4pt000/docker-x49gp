@@ -6,6 +6,12 @@ docker run -it --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix --devic
 * copy x49gp to /usr/bin/x49gp
 * chmod +x /usr/bin/x49gp
 
+making an sdcard
+```
+sudo mkdir -p /Volumes/X49GP/
+sudo mount -o loop sdcard /Volumes/X49GP
+```
+
 <br>
 <br>
 <br>
