@@ -1,3 +1,9 @@
+
+# quickstart docker
+```
+docker run -it --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix --device /dev/snd c4pt/x49gp
+```
+
 Quick Start Guide
 03/27/2017
 Egan Ford <egan@sense.net>
